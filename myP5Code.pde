@@ -13,10 +13,28 @@ draw = function(){
   fill(255, 255, 255);
   
   if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+    text("it    will", 176, 200);
+    text("happen", 159, 229); 
   }
-  
+ if (answer == 2) {
+    text("yes", 176, 200);
+    text("yes it will", 159, 229); 
+  } 
+   if (answer == 3) {
+    text("of", 176, 200);
+    text("cousre", 159, 229);
+    }
+     if (answer == 4) {
+    text("probubly ", 176, 200);
+    text("not", 159, 229); 
+  }
+   if (answer == 5) {
+    text("No", 176, 200);
+    text("Duh", 159, 229); 
+  }
+  if(mousePressed){
+  text("yurrr", random(0,400), random(0, 400));
+  }
 };
 
 mouseClicked = function(){
